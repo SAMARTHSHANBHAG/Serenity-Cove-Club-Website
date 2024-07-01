@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+.main {
+    position: fixed;
+    z-index: 1;
+}
+
+.box{
+    box-shadow: rgba (0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn-abc {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s; 
+    color:white;
+}
+
+.btn-abc:after {
+    content: '';
+    position: relative;
+    opacity: 0;
+    transition: 0.1s;
+    color:rgba(177, 138, 0, 1);
+}
+
+.btn-abc:hover{
+    color:rgba(177, 138, 0, 1);
+}
+
+.btn-abc:hover:after {
+    opacity: 1;
+    right: -1px;
+}

@@ -1,0 +1,32 @@
+.nav {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    background-color: transparent;
+}
+
+.navbar-items {
+    display: inline-block;
+    position: relative;
+    color: #bbb;
+    font-weight: 700;
+}
+
+
+.navbar-items::after {
+    content: '';
+    position: absolute;
+    width: 68%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -6px;
+    left: 30px;
+    background-color: #1B1C1F;
+    transform-origin: bottom right;
+    transition: transform 0.55s ease-out;
+}
+
+.navbar-items:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

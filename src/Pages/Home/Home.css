@@ -1,0 +1,142 @@
+.hero {
+  background-image: url("../../Images/Rectangle2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: inherit;
+  z-index: 1;
+  background-color: #000;
+  
+}
+
+.hero {
+    padding-top: 19%;
+    padding-bottom: 280px;
+    font-size: 2rem;
+    color: azure;
+    padding-left: 15px;
+    
+}
+
+.btn-hero {
+    margin-top: 15px;
+    padding: 15px 32px;
+    background-color: #4063BC;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-hero:hover {
+    border: 2px solid #ffffff;
+    color:#ffffff;
+    background-color: #000000;
+}
+
+.head {
+  color: #B18A00;
+}
+
+.icon {
+  justify-content: center;
+}
+
+.btn-lm {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.1s;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  margin-left: 5px;
+}
+
+.btn-lm {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s; 
+}
+
+.btn-lm:after {
+  content: 'Learn More';
+  color: #000000;
+  position: absolute;
+  opacity: 0;
+  left: 0px;
+  right: 100px;
+  transition: transform 0.1s;
+}
+
+.btn-lm:hover{
+  padding-right: -100px;
+  padding-left: 140px;
+}
+
+.btn-lm:hover:after {
+  opacity: 1;
+  right: -100px;
+}
+
+.textbox {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  left: 4rem;
+  top: 500px;
+  background-color: #000;
+  padding: 2rem 4rem;
+}
+
+.btn-more {
+  position: absolute;
+  margin-top: 48px;
+  padding: 15px 64px;
+  background-color: #000000;
+  color: white;
+}
+
+.btn-more:hover {
+  color:#ffffff;
+  background-color: #000000d9;
+  transition: all 0.1s; 
+}
+
+.hline {
+  border-top: 1px solid #000;
+  padding: 2rem 2rem;
+  margin-top: 40px;
+  width: 560px;
+}
+
+.pointers {
+  padding: 2rem 2rem;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.view {
+  background-color:#fceecc;
+}
+
+.image {
+  height: 150px;
+}
+
+.btn-view {
+  position: absolute;
+  margin-top: 32px;
+  padding: 15px 64px;
+  background-color: #000000;
+  color: white;
+}
+
+.btn-view:hover {
+  color:#ffffff;
+  background-color: #000000d9;
+  transition: all 0.1s; 
+}
+

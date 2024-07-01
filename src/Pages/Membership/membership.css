@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.main {
+    padding-top: 180px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.card1 {
+    padding-top: 100px;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.btn-know {
+    padding: 5px 10px;
+    padding-left: 25px;
+    background-color: white;
+    color:black;
+    border-radius: 24px;
+}
+
+.btn-know {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s; 
+}
+
+.btn-know:after {
+    content: '➜';
+    color: #000000;
+    position: relative;
+    opacity: 0;
+    right: -5px;
+    transition: 0.3s;
+}
+
+.btn-know:hover{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.btn-know:hover:after {
+    opacity: 1;
+    right: -1px;
+}

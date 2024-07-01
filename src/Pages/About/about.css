@@ -1,0 +1,11 @@
+.about {
+    padding-top: 180px;
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.img {
+    left: 16rem;
+    top: 220px;
+}

@@ -1,0 +1,17 @@
+.footer {
+    background-color: #221C16;
+    color: white;
+    margin-top: auto;
+    width: 100%;
+    
+}
+
+ul {
+    text-decoration: underline;
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+li {
+    margin-top: 20px;
+}
